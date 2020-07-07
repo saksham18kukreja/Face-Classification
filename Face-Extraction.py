@@ -29,7 +29,7 @@ def load_faces(directory):
     return faces
    
    
-def load_dataset(directory):
+def load_dataset(directory): 
     X,y = list(),list()
     for subdirectory in listdir(directory):
         path = directory + subdirectory + '/'
