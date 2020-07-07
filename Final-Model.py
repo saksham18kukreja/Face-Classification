@@ -51,7 +51,7 @@ model_embed = load_model('facenet_keras.h5')
 
 # Use OpenCv to capture frame from the webcam feed and predicting the detected face
 while True:
-    (_,frame) = camera.read()
+    (_,frame) = camera.read() 
     
     bbox = classifier.detectMultiScale(frame,1.1,5,minSize = (30,30))
     
