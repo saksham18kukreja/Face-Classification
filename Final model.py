@@ -24,7 +24,7 @@ def extract_face_webcam(frame,bound_box,required_size=(160,160)):
     image = Image.fromarray(face)
     image = image.resize(required_size)
     face_array = asarray(image)
-    return face_array
+    return face_array 
 
 # Create Embeddings for the detected face 
 def embed_face_webcam(model,face):
