@@ -18,5 +18,6 @@ Haar-Cascade Classifier of OpenCV is used to detect faces using webcam and then 
 
 #### An accuracy between 90-96% was achieved when used on a small training set of 2 classes containing 3 pictures each
 
-![](example.jpg )
+## Future Work
+1) Plan to develop a face attendance system to be implemented in organizations for post covid era as opposed to the biometric system being currently used.
 
