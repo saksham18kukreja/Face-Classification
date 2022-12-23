@@ -16,6 +16,8 @@ A SVM Classifier is used to predict label of a face based on the training data (
 4. [Final Model using OpenCV]<br>
 Haar-Cascade Classifier of OpenCV is used to detect faces using webcam and then classify it by using the above methods.
 
+#### Use run_model.py for running the model and change the address of the dataset to train the model on
+
 #### An accuracy between 90-96% was achieved when used on a small training set of 2 classes containing 3 pictures each
 
 ## Future Work
